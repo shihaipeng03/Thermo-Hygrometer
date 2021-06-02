@@ -1,4 +1,4 @@
-Thermo-Hygrometer 机械温湿度计
+#Thermo-Hygrometer 机械温湿度计
 拿着手机不知所措的同学，请打包下载，推荐使用电脑打包下载后再看。手机无法在线浏览。 下载是按绿色的 Clone or Download 按钮下载zip的打包文件。 不会用的可以看一下Github使用教程： https://www.bilibili.com/video/BV1ff4y1975o/
 
 还是不会用的可以到百度下载程序资料大全包下载链接:   （ 最后更新）
