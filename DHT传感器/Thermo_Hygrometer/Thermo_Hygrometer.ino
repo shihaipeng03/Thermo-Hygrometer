@@ -1,10 +1,10 @@
 //淘宝『有名称的店铺』https://somebodys.taobao.com/
-//更新日期 2021/05/04
+//更新日期 2021/06/04
 //Wall Drawing Machine 墙画机 程序
 //本程序对应商品 
 
 //web版程序连接：
-//Github版链接：  https://github.com/shihaipeng03/Walldraw
+//Github版链接： https://github.com/shihaipeng03/Thermo-Hygrometer
 
 //部分系统有不不能正常安装驱动的情况，可以手工安装驱动（CH340 CH341都可以适用）。
 //WIN驱动下载链接： https://sparks.gogo.co.nz/assets/_site_/downloads/CH34x_Install_Windows_v3_4.zip  

@@ -1,10 +1,10 @@
 //淘宝『有名称的店铺』https://somebodys.taobao.com/
-//更新日期 2021/05/04
+//更新日期 2021/06/04
 //Wall Drawing Machine 墙画机 程序
 //本程序对应商品 
 
 //web版程序连接：
-//Github版链接：  https://github.com/shihaipeng03/Walldraw
+//Github版链接： https://github.com/shihaipeng03/Thermo-Hygrometer
 
 //部分系统有不不能正常安装驱动的情况，可以手工安装驱动（CH340 CH341都可以适用）。
 //WIN驱动下载链接： https://sparks.gogo.co.nz/assets/_site_/downloads/CH34x_Install_Windows_v3_4.zip  
@@ -53,7 +53,7 @@ int humi_calibration=humi_init;  //
 
 void setup() 
 {  
-  Serial.begin(115200);
+  Serial.begin(115200); //设置串口通讯波特率，串口监视器如果需要也要设置成相同的速率115200
 
   temp.connectToPins(tempmotorPin1, tempmotorPin2, tempmotorPin3, tempmotorPin4);  //温度电机 上 外大圈
   humi.connectToPins(humimotorPin1, humimotorPin2, humimotorPin3, humimotorPin4);  //湿度电机 下 内小圈
@@ -62,6 +62,7 @@ void setup()
   humi.setSpeedInStepsPerSecond(256);
   humi.setAccelerationInStepsPerSecondPerSecond(512); //初始化步进电机设置速度，加速度等参数
 
+  delay(2000);    //
   Wire.begin(); //连接IIC总线
 
   //检测AHT传感器模块
